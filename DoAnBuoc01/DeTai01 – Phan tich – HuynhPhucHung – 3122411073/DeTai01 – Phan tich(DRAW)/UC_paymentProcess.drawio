@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Trang-1" id="ZvD9acuTPh6fdnGWVXNn">
+    <mxGraphModel dx="1106" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e9_IsMw_PUrRmKujud3P-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="540" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-1" value="Hệ thống" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-2" value="Quy trình thanh toán" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-3" value="xác thực thông tin mặt hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-4" value="xử lý thanh toán" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-5" value="Gửi email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="e9_IsMw_PUrRmKujud3P-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="240" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="e9_IsMw_PUrRmKujud3P-2" target="e9_IsMw_PUrRmKujud3P-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="84.5" as="sourcePoint" />
+            <mxPoint x="560" y="84.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-8" value="Dùng" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="e9_IsMw_PUrRmKujud3P-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="e9_IsMw_PUrRmKujud3P-3" target="e9_IsMw_PUrRmKujud3P-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-11" value="Use" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="e9_IsMw_PUrRmKujud3P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="e9_IsMw_PUrRmKujud3P-4" target="e9_IsMw_PUrRmKujud3P-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9_IsMw_PUrRmKujud3P-13" value="Dùng" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="e9_IsMw_PUrRmKujud3P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
