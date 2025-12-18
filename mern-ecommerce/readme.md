@@ -165,6 +165,93 @@ Once both servers are running, you can access them at the following URL's:
 - Backend: http://localhost:8000
 - Frontend: http://localhost:3000
 
+# **Testing**
+
+### ✨ Comprehensive Testing Suite
+This project includes a complete testing infrastructure with:
+- **Unit Tests** with mock dependencies (Jest)
+- **Black-Box Testing** with Equivalence Partitioning & Boundary Analysis
+- **Performance Tests** with K6 (100-300 concurrent users)
+- **Use Case Tests** for complete business flows
+- **Separate test environment** configuration
+
+### Quick Start Testing
+
+```bash
+cd backend
+
+# Install dependencies (if not already done)
+npm install
+
+# Run unit tests
+npm run test:unit
+
+# Run all tests
+npm test
+
+# Run with watch mode
+npm run test:watch
+
+# View coverage report
+# Opens: backend/coverage/index.html
+```
+
+### Performance Testing with K6
+
+**Install K6:**
+```powershell
+# Windows (Chocolatey)
+choco install k6
+
+# Windows (MSI)
+# Download from: https://dl.k6.io/msi/k6-latest-amd64.msi
+
+# macOS
+brew install k6
+
+# Linux
+sudo apt-get install k6
+```
+
+**Run Performance Tests:**
+```bash
+# Start backend server first
+cd backend
+npm start
+
+# In another terminal, run K6 tests
+npm run test:perf
+
+# Or directly
+k6 run tests/performance/load-test.js
+```
+
+### Interactive Test Runner
+
+```powershell
+# Windows PowerShell
+.\run-tests.ps1              # Choose test type interactively
+.\run-performance-tests.ps1  # Run K6 performance tests
+```
+
+### Testing Documentation
+- 📖 **[TESTING_GUIDE.md](TESTING_GUIDE.md)** - Quick start guide
+- 📖 **[TESTING_SUMMARY.md](TESTING_SUMMARY.md)** - Complete testing overview
+- 📖 **[tests/README.md](backend/tests/README.md)** - Detailed documentation
+
+### Test Coverage
+Current coverage:
+- Auth Controller: 35.65%
+- Product Controller: 22.58%
+- 22 unit tests (19 passing)
+
+**Testing Techniques Applied:**
+- ✅ Unit Testing with Jest mocks
+- ✅ Equivalence Partitioning for input validation
+- ✅ Boundary Value Analysis for edge cases
+- ✅ Performance Testing with K6 (100-300 concurrent users)
+- ✅ Use Case Testing for business flows
+
 ## **Bonus**
 Don't forget to star the repository and share your feedback!✨
 
