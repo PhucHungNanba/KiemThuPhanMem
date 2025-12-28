@@ -18,7 +18,7 @@ Trong quá trình thực hiện đồ án, bên cạnh việc cùng nhóm xây d
 * Xây dựng cấu trúc tài liệu, viết User Stories và mô tả Use Cases chi tiết.
 
 ### 2.  Thiết kế Giao diện 
-* Tham gia thiết kế giao diện (Front-end) cho Website dự án.
+* Tham gia thiết kế giao diện (Front-end) cho Website dự án.   
 * Tối ưu hóa bố cục để đảm bảo tính thẩm mỹ và trải nghiệm người dùng tốt nhất trước khi tiến hành kiểm thử.
 
 ### 3.  Thực hành & Hỗ trợ
