@@ -1,7 +1,7 @@
 # KiemThuPhanMem - Software Testing
 > **Nơi lưu trữ các bài thực hành (Lab) và Đồ án môn Kiểm thử phần mềm.**
                     
----    
+---         
 
 ##  Thông tin sinh viên
 * **Họ và tên:** Huỳnh Phúc Hưng
