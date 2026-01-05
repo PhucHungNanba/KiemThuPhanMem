@@ -26,7 +26,7 @@ Trong quá trình thực hiện đồ án, bên cạnh việc cùng nhóm xây d
 * Hỗ trợ nhóm thực hiện các bài tập nhỏ và các module chức năng phụ trợ.
 
 ---
-    
+         
 ##  Cấu trúc Kho chứa
 * `lab1` - `lab7`: Các bài thực hành kiểm thử theo tuần.
 * `DeTai_...`: Tài liệu và source code của Đồ án nhóm (Giai đoạn 1 & 2).
